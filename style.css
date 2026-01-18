@@ -1,13 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 40px;
-  background-color: #f4f4f4;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  line-height: 1.6;
 }
 
-h1 {
-  color: #333;
+.hero {
+  text-align: center;
+  padding: 80px 20px;
 }
 
-h2 {
-  color: #555;
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 12px 25px;
+  margin: 5px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.primary {
+  background: #00c6ff;
+  color: #000;
+}
+
+.secondary {
+  border: 1px solid #00c6ff;
+  color: #00c6ff;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  margin: 30px auto;
+  padding: 30px;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  color: #00c6ff;
+}
+
+.skills span {
+  display: inline-block;
+  background: rgba(0, 198, 255, 0.15);
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 6px;
+  font-size: 0.9rem;
+}
+
+.timeline ul {
+  margin-left: 20px;
+}
+
+.timeline li {
+  margin-bottom: 8px;
+}
+
+.company {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.contact a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.7;
+  font-size: 0.9rem;
 }
