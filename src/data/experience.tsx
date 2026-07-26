@@ -7,7 +7,7 @@ export const experiences = [
   {
     year: "2023 - Present",
     title: "Software Engineer",
-    company: "Yarago HealthTech Pvt Ltd",
+    company: "YARAGO HEALTHTECH PRIVATE LIMITED(Formely known as YaraGo Software Pvt Ltd)",
     location: "Bengaluru, India",
     icon: <FaBriefcase />,
     technologies: [
@@ -17,15 +17,17 @@ export const experiences = [
       "REST API",
       "React",
       "Git",
+      "Production Support",
+      
     ],
     description:
       "Developing healthcare applications, automating test cases using Selenium, testing REST APIs, writing SQL queries, and collaborating in Agile teams to deliver high-quality software.",
   },
   {
     year: "Before 2023",
-    title: "Telecommunication Engineer",
-    company: "Telecommunication Industry",
-    location: "India",
+    title: "IME Technician",
+    company: "Sree Lakshmi Enterprices (O&M partner of Indus Towers Pvt Ltd)",
+    location: "Coimbatore",
     icon: <FaBroadcastTower />,
     technologies: [
       "Network",

@@ -56,8 +56,8 @@ export default function Navbar() {
               className="text-2xl font-bold cursor-pointer"
               onClick={() => scrollTo("home")}
             >
-              <span className="text-white">Muthu</span>
-              <span className="text-sky-400">.dev</span>
+              <span className="text-white">Personal Portfolio</span>
+              
             </motion.h1>
 
             {/* Desktop Menu */}

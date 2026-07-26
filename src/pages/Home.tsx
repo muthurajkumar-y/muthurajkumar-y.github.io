@@ -3,7 +3,7 @@ import About from "../components/sections/about/About";
 import Skills from "../components/sections/Skills";
 import Projects from "../components/sections/Projects";
 import Contact from "../components/sections/Contact";
-
+import Footer from "../components/layout/Footer";
 export default function Home() {
   return (
     <>
@@ -12,6 +12,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }

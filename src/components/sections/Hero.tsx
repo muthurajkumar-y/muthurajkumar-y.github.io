@@ -77,9 +77,6 @@ export default function Hero() {
             {/* Buttons */}
             <div className="mt-10 flex flex-wrap gap-5">
 
-              <button className="rounded-xl border border-white/10 bg-white/10 px-8 py-3 font-semibold backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:bg-sky-500 hover:shadow-lg hover:shadow-sky-500/30">
-  View Projects →
-</button>
 
 <button className="rounded-xl border border-slate-700 bg-slate-900/40 px-8 py-3 font-semibold backdrop-blur-md transition-all duration-300 hover:border-sky-400 hover:-translate-y-1">
   Download Resume ↓

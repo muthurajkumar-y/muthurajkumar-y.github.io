@@ -9,17 +9,17 @@ import {
 const stats = [
   {
     icon: <FaLaptopCode />,
-    value: "2+",
+    value: "3+",
     label: "Years Experience",
   },
   {
     icon: <FaCode />,
-    value: "20+",
+    value: "5+",
     label: "Projects",
   },
   {
     icon: <FaDatabase />,
-    value: "15+",
+    value: "10+",
     label: "Technologies",
   },
   {
