@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import {
   FaEnvelope,
-  FaGithub,
-  FaLinkedin,
   FaMapMarkerAlt,
   FaMobile,
   FaWhatsapp,

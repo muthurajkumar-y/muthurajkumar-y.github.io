@@ -10,13 +10,7 @@ export default function AboutIntro() {
         viewport={{ once: true }}
         className="text-center"
       >
-        <p className="text-sky-400 uppercase tracking-widest">
-          About Me
-        </p>
-
-        <h2 className="text-5xl font-bold mt-3">
-          Building Reliable Software
-        </h2>
+    
 
         <div className="w-24 h-1 bg-sky-500 mx-auto mt-6 rounded-full"></div>
       </motion.div>
@@ -37,7 +31,9 @@ export default function AboutIntro() {
           <p className="mt-8 text-lg text-slate-400 leading-8">
             I'm a Software Engineer passionate about building reliable applications,
             improving software quality through automation, and creating scalable
-            web applications using Java and modern technologies.
+            web applications using Java and modern technologies for healthcare
+            platforms, including ophthalmology EMR, dental EMR, pharmacy, and
+            optical supply chain management systems.
           </p>
 
         </motion.div>

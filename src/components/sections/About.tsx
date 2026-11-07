@@ -47,14 +47,7 @@ export default function About() {
           viewport={{ once: true }}
           className="text-center"
         >
-          <p className="text-sky-400 uppercase tracking-widest">
-            About Me
-          </p>
-
-          <h2 className="text-5xl font-bold mt-3">
-            Building Reliable Software
-          </h2>
-
+          
           <div className="w-24 h-1 bg-sky-500 mx-auto mt-6 rounded-full"></div>
         </motion.div>
 
@@ -85,7 +78,9 @@ export default function About() {
               MySQL, REST APIs, and modern web development.
               I enjoy solving complex problems, learning new
               technologies, and contributing to clean,
-              maintainable software.
+              maintainable software for healthcare platforms,
+              including ophthalmology EMR, dental EMR,
+              pharmacy, and optical supply chain systems.
             </p>
 
             <p className="mt-6 text-slate-400 leading-8 text-lg">

@@ -2,9 +2,6 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import AnimatedBackground from "../common/AnimatedBackground";
 import {
-  FaGithub,
-  FaLinkedin,
-  FaEnvelope,
   FaArrowDown,
 } from "react-icons/fa";
 
@@ -22,14 +19,7 @@ export default function Hero() {
           {/* Left Section */}
           <div>
 
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.2 }}
-              className="text-sky-400 text-xl font-medium"
-            >
-              Hello 👋 I'm
-            </motion.p>
+            
 
             <motion.h1
               initial={{ opacity: 0, y: 40 }}
@@ -69,27 +59,21 @@ export default function Hero() {
               className="mt-8 max-w-xl text-slate-400 text-lg leading-8"
             >
               Software Engineer with experience in QA Automation,
-              Java, MySQL and modern web technologies. Currently
-              learning React and Spring Boot while building scalable,
+              Java, MySQL, and modern web technologies. I contribute
+              to ophthalmology EMR, dental EMR, pharmacy, and optical
+              supply chain management systems while building scalable,
               user-focused applications.
             </motion.p>
 
-            {/* Buttons */}
-            <div className="mt-10 flex flex-wrap gap-5">
-
-
-<button className="rounded-xl border border-slate-700 bg-slate-900/40 px-8 py-3 font-semibold backdrop-blur-md transition-all duration-300 hover:border-sky-400 hover:-translate-y-1">
-  Download Resume ↓
-</button>
-
-            </div>
 
             {/* Skills */}
             <div className="mt-10 flex flex-wrap gap-3">
               {[
                 "Java",
-                "React",
-                "Spring Boot",
+                "Javascript",
+                "HTML",
+                "CSS",
+                "Apache Tomcat",
                 "MySQL",
                 "Selenium",
                 "Git",
@@ -103,35 +87,6 @@ export default function Hero() {
               ))}
             </div>
 
-            {/* Social Icons */}
-            <div className="mt-10 flex gap-6 text-2xl">
-
-              <a
-                href="https://github.com/muthurajkumar-y"
-                target="_blank"
-                rel="noreferrer"
-                className="hover:text-sky-400 transition"
-              >
-                <FaGithub />
-              </a>
-
-              <a
-                href="https://linkedin.com/in/muthurajkumary"
-                target="_blank"
-                rel="noreferrer"
-                className="hover:text-sky-400 transition"
-              >
-                <FaLinkedin />
-              </a>
-
-              <a
-                href="mailto:muthurajkumar.y@gmail.com"
-                className="hover:text-sky-400 transition"
-              >
-                <FaEnvelope />
-              </a>
-
-            </div>
 
           </div>
 

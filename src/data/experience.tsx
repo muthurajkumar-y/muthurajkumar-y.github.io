@@ -18,10 +18,13 @@ export const experiences = [
       "React",
       "Git",
       "Production Support",
-      
+      "Ophthalmology EMR",
+      "Dental EMR",
+      "Pharmacy Systems",
+      "Optical Supply Chain",
     ],
     description:
-      "Developing healthcare applications, automating test cases using Selenium, testing REST APIs, writing SQL queries, and collaborating in Agile teams to deliver high-quality software.",
+      "Developing ophthalmology EMR, dental EMR, pharmacy, and optical supply chain management systems, automating test cases using Selenium, testing REST APIs, writing SQL queries, and collaborating in Agile teams to deliver high-quality healthcare software.",
   },
   {
     year: "Before 2023",
